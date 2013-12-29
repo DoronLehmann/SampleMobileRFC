@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application>
+   <application-config>
+    <property name="Vendor" value="sap.com"/>
+    <property name="SecurityArea" value="NetWeaver.Portal"/>
+    <property name="PrivateSharingReference" value="SAPJ2EE::library:com.sap.base.technology.facade, com.sap.portal.ivs.connectorservice"/>
+  </application-config>
+  <components>
+    <component name="SampleMobileRFCApp">
+      <component-config>
+        <property name="ClassName" value="com.sap.portal.demo.SampleMobileRFCApp"/>
+      </component-config>
+      <component-profile>
+            	<property name="com.sap.portal.prt.html5.compliant" value="true"/>
+      </component-profile>
+    </component>
+  </components>
+  <services/>
+</application>

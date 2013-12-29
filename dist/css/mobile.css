@@ -1,0 +1,103 @@
+.RFCList {
+    padding: 0 10px !important;
+    display: block;
+    list-style-type: none !important;
+    -webkit-margin-before: 0em !important;
+    -webkit-margin-after: 0em !important;
+    -webkit-margin-start: 0px !important;
+    -webkit-margin-end: 0px !important;
+	
+}
+    
+.RFCList  li {
+    list-style: none;
+    height: auto;
+    padding: 9px 10px 9px 10px;
+    background-image: url("../css/images/item-background.png");
+    border-top: 1px solid white;
+    border-bottom: 1px solid #BFBFBF;
+    border-left: 1px solid #BFBFBF;
+    border-right: 1px solid #BFBFBF;
+    display: block;
+    position:relative;
+}
+
+.RFCList li span h3 {
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+    max-height: 38px;
+    margin: 19px 39px 19px 0;
+}
+
+.RFCList li span span {
+    display: block;
+    font-weight: 100;
+    margin: 0 39px 0 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.RFCListText {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.textWrapper{
+    position: relative;
+    display: inline-block;
+    width:100%;  
+}
+
+.ui-listview-filter {
+	margin: 10px 10px 0px 10px !important;
+}
+
+.listIconRight {
+  display: inline-block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 5px;
+}
+
+.entryItemText {
+  margin-left: 32px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+#search .ui-input-search{
+	width: 300px !important;
+	left: 50% !important;
+	margin-left: -180px !important;
+}
+
+#searchButton{
+	width: 200px !important;
+	left: 50% !important;
+	margin-left: -130px !important;
+}
+
+#search {
+	margin-top: 150px !important;
+	margin-bottom: 50px !important;
+}
+
+#listView{
+	margin-top:10px !important;
+}
+
+.prtlPrtlFullPageAppBody {
+    background-color: transparent !important;
