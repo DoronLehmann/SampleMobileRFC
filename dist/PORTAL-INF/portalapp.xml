@@ -12,6 +12,7 @@
       </component-config>
       <component-profile>
             	<property name="com.sap.portal.prt.html5.compliant" value="true"/>
+				<property name="com.sap.portal.demo.SystemAlias" value="ERP"/>
       </component-profile>
     </component>
   </components>

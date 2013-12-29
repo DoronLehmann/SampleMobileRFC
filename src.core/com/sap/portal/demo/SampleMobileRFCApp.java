@@ -28,8 +28,6 @@ import com.sapportals.portal.prt.runtime.PortalRuntime;
 
 public class SampleMobileRFCApp extends AbstractPortalComponent
 {
-	//The system alias
-	private String BACKEND_SYSTEM_ALIAS = "ERP";
 
 	public void doContent(IPortalComponentRequest request, IPortalComponentResponse response)
 	{
@@ -186,6 +184,8 @@ public class SampleMobileRFCApp extends AbstractPortalComponent
 		{
 			writeJsonResponse(request, "");
 		}
+		//Get the system alias from the configurable Portal component property
+		private String BACKEND_SYSTEM_ALIAS = request.getComponentContext().getProfile().getProperty("com.sap.portal.demo.SystemAlias");
 		return cgService.getConnection(BACKEND_SYSTEM_ALIAS, prop);
 	}
 
